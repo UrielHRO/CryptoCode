@@ -1,3 +1,5 @@
+# Algoritmo para cifra de Vigenere
+
 def gerar_chave(texto: str, chave: str) -> str:
     chave = chave.lower()
     return (chave * (len(texto) // len(chave) + 1))[:len(texto)]

@@ -1,3 +1,5 @@
+# Algoritmo para a cifra de césar
+
 def encrypt(texto: str, chave: int) -> str:
     resultado = ""
     for c in texto:

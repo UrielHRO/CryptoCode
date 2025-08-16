@@ -1,3 +1,5 @@
+# Algoritmo para cifra de XOR
+
 def encrypt(texto: str, chave: int) -> str:
     return "".join(chr(ord(c) ^ chave) for c in texto)
 
